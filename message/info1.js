@@ -2,7 +2,7 @@ exports.bot = (calender, wa_version, mcc, mnc, os_version, device_manufacturer, 
 return`
 「 𝗜𝗡𝗙𝗢 𝗕𝗢𝗧𝗭 」
 
-*▸* Nama : ${fake}
+*▸* Name : ${fake}
 *▸* Gender : ${gender}
 *▸* Private Chat : ${privat.length}
 *▸* Group Chat : ${groups.length}
@@ -16,29 +16,12 @@ return`
 *▸* Wa Version: ${wa_version}
 *▸* Os Version: ${os_version}
 *▸* Owner : ${nomerOwner}
-*▸* Tgl pembuatan : 25 Juli 2021
-*▸* Tgl release : 29 September 2021
-*▸* Tgl sekarang : ${calender}
-*▸* Image : Girl Front Line G11
-*▸* Voice : Nina kawai
 
 *▸* SCRIPT BY
-   Decode Denpa
-   X-Dev Team
-   Yogi PW
-   Hexagon
-   Dttaz
+   𝗚𝗼𝘂𝗿𝗮𝘃
 
 *▸* FEATURE  BY  
-   Decode Denpa
-   Fernazer
-   X-Dev Team
-   Resta Gamteng
-   Zeeone Ofc
-   X-Dev Team
-   Yudha perdana
-   Xchilds
-   Dika Ardnt
+   dark_devil_3609
 `
 }
 
