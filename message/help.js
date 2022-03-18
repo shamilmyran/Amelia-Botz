@@ -10,16 +10,9 @@ ${week}, ${calender}
 ⬡ Prefix :「  ${thePrefix}  」
 ⬡ Mode : ${publik ? "Public" : "Self"}
 ⬡ Active : ${kyun(process.uptime())}
-⬡ Time : ${timeWib} WIB
-⬡ Time : ${timeWit} WIT 
-⬡ Time : ${timeWita} WITA
-⬡ Islamic : ${dateIslamic}
 ⬡ Hit Today : ${thisHit.toLocaleString()}
 ⬡ Total User : ${JSON.parse(fs.readFileSync('./database/user.json')).length.toLocaleString()}
-⬡ Total Error : ${JSON.parse(fs.readFileSync('./database/listerror.json')).length}
-⬡ User Banned : ${JSON.parse(fs.readFileSync('./database/banned.json')).length}
-⬡ User Blocked : ${JSON.parse(fs.readFileSync('./database/userblocked.json')).length} 
-⬡ Cmd Blocked : ${JSON.parse(fs.readFileSync('./database/blockcmd.json')).length} 
+⬡ http://ī.am/𝗚𝗼𝘂𝗿𝗮𝘃
 
  *]───── COMMAND ─────[*
 					          ▾
@@ -525,17 +518,8 @@ ${week}, ${calender}
 
 *╭─❲ THANKS TO ❳*
 *│*
-*│* • Dittaz
-*│* • Nina Kawai
-*│* • Resta Gamteng :v
-*│* • Zeeone Ofc
-*│* • Yudha Perdana
-*│* • Yogi PW
-*│* • Decode Denpa
-*│* • Fernazer
-*│* • X - Dev Team
-*│* • XChillDs & Yuzu
-*│* • Dika Ardnt
+*│* • 𝗚𝗼𝘂𝗿𝗮𝘃
+*│* • dark_devil_3609
 *│*
 *╰────────────⦁*`
 }
