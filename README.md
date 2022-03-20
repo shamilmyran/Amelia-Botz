@@ -55,7 +55,7 @@ npm start
 
 ## For Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kangsad01/Wabot-Tsb01)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/darkdevil3610/Amelia-Botz)
 
 ### Install Buildpack
 * heroku/nodejs
