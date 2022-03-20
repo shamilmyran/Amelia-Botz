@@ -3770,7 +3770,7 @@ stod = `${sender}`
 menunya = help.menu(dateIslamic, thisHit ,listcmdblock, explain, kyun, process, timeWit, timeWita, timeWib, thePrefix, fs, isPremium, getLimit, limitCount, getBalance, senderNumber, blocked, ban, listerror, user, autosticker, forwarding, fake,autoread, autovn, typing,antibugtroli,Toxic, isAntihidetag, isKickarea, isAntiLink, AntiVirtex, isAntiviewonce, hitnya, pushname, ucapanWaktu, prefix, publik, week, weton, calender)
 let mok = [{"buttonId": `INFO BOTZ`,"buttonText": {"displayText": `GOURAV ʙᴏᴛᴢ`},"type": "RESPONSE"},
                     {"buttonId": `SEWA BOTZ`,"buttonText": {"displayText": `GOURAV ʙᴏᴛᴢ`},"type": "RESPONSE"}]
-                    nana =`https://www.logosvgpng.com/wp-content/uploads/2018/04/brainly-logo-vector.png`
+                    nana =`https://telegra.ph/file/56f641c3cf138aa7f27b2.jpg`
   options = {contextInfo: { forward, externalAdReply:{title: `${ucapanWaktu} kak`,previewType:"PHOTO",thumbnail: thumb, sourceUrl:"https://youtu.be"}}}  
 options1 = {quoted: setQuoted, contextInfo: { forward, externalAdReply:{title:`${ucapanWaktu} ${pushname}`,body:`Click here to see video `,mediaType:"2",thumbnailUrl: nana,mediaUrl:`https://www.instagram.com/reel/CbKWdxRDefL/?utm_medium=copy_link`}}}
 if(setmenu === "katalog") {
