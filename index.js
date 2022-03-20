@@ -3771,8 +3771,8 @@ menunya = help.menu(dateIslamic, thisHit ,listcmdblock, explain, kyun, process, 
 let mok = [{"buttonId": `INFO BOTZ`,"buttonText": {"displayText": `GOURAV ʙᴏᴛᴢ`},"type": "RESPONSE"},
                     {"buttonId": `SEWA BOTZ`,"buttonText": {"displayText": `GOURAV ʙᴏᴛᴢ`},"type": "RESPONSE"}]
                     nana =`https://www.logosvgpng.com/wp-content/uploads/2018/04/brainly-logo-vector.png`
-  options = {contextInfo: { forward, externalAdReply:{title: `${ucapanWaktu} kak`,previewType:"PHOTO",thumbnail: thumb, sourceUrl:"https://youtu.be/_IlvsY7S7j8"}}}  
-options1 = {quoted: setQuoted, contextInfo: { forward, externalAdReply:{title:`${ucapanWaktu} ${pushname}`,body:`*click here to play music`,mediaType:"2",thumbnailUrl: nana,mediaUrl:`https://www.instagram.com/reel/CZCA-viBoxa/?utm_medium=copy_link`}}}
+  options = {contextInfo: { forward, externalAdReply:{title: `${ucapanWaktu} kak`,previewType:"PHOTO",thumbnail: thumb, sourceUrl:"https://youtu.be"}}}  
+options1 = {quoted: setQuoted, contextInfo: { forward, externalAdReply:{title:`${ucapanWaktu} ${pushname}`,body:`Click here to see video `,mediaType:"2",thumbnailUrl: nana,mediaUrl:`https://www.instagram.com/reel/CbKWdxRDefL/?utm_medium=copy_link`}}}
 if(setmenu === "katalog") {
 costum(`*Loading...*`)
 sendKatalog(menunya)
