@@ -3,7 +3,7 @@ exports.menu = (dateIslamic, thisHit, listcmdblock, explain, kyun, process, time
 return`*${fake}*
 ${week}, ${calender} 
 
-⬡ Nama : ${pushname}
+⬡ Name : ${pushname}
 ⬡ Status : ${isPremium ? '🎫 Premium':'Free'}
 ⬡ Limit : ${isPremium ? 'Unlimited' : `${getLimit(senderNumber, limitCount, user)}/${limitCount}`}
 ⬡ Saldo : Rp ${getBalance(senderNumber, user).toLocaleString()}
