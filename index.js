@@ -260,7 +260,7 @@ const On =`ᴏɴ`
 const Off =`ᴏғғ`
 Myprofile = `ᴍʏ ᴘʀᴏғɪʟᴇ`
 Mainlagi = `ᴍᴀɪɴ ʟᴀɢɪ`
-const extream = ["6285156137901-1632578387@g.us","6285156137901-1633160194@g.us"]
+const extream = ["917025770987-1632578387@g.us","917025770987-1633160194@g.us"]
 badword = ["asu","Asu","asw","Asw","Ajg","ajg","Anjing","anjing","Bajingan","bajingan","Bjingan","bjingan","Babi","babi","Bacot","bacot","Bcot","bcot","Cacat","cacat","Jancok","jancok","Jncok","jncok","Kontol","kontol","Kntl","kntl","KONTOL","kirek","Kirek","Lonte","lonte","Lnte","lnte","Memek","memek","Mmek","mmek","Pler","pler","Silet","Silit","silit","Silet","Tai","tai","Taek","taek","coeg"]
 //Masukan semua fitur ke sini, biar ke add ke dasboard
 features =["igstalk","menu","ytmp4","ytmp3","play","tiktok","tiktoknowm","ig","igstory","twitter","gitclone","toimg","tomp3", "toptt","slow", "togif", "tovideo","fast", "reverse","pastebin","hode","imut","nightcore","ghost","volume","triggered","wasted","smeme","comrade","horny","blur","pixelate","simpcard","lolice","glass"] 
@@ -1355,7 +1355,7 @@ for (let anju of audionye){
 if (budy === anju){
 if (cekSpam("NotCase",senderNumber, AntiSpam)) return sendSticker(spam2)
 buffer = fs.readFileSync(`./temp/audio/${anju}.mp3`)
-xdev.sendMessage(from, buffer, audio, {mimetype: 'audio/mp4', quoted: {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},message: { "extendedTextMessage": {"text": `${pushname} \n「 audio 」 ${anju}`,"title": `Hmm`,'jpegThumbnail': fs.readFileSync('./stik/thumb.jpeg')}}}, ptt: true, contextInfo: forward})
+xdev.sendMessage(from, buffer, audio, {mimetype: 'audio/mp4', quoted: {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},message: { "extendedTextMessage": {"text": `${pushname} \n「 audio 」 ${anju}`,"title": `GS`,'jpegThumbnail': fs.readFileSync('./stik/thumb.jpeg')}}}, ptt: true, contextInfo: forward})
 addSpam("NotCase",senderNumber, "10s", AntiSpam)
 }
 }
@@ -1474,7 +1474,7 @@ console.log(color("Download video with ytdl-core"))
 nana = ytdl(Link, {requestOptions: { agent }})
 .pipe(fs.createWriteStream(mp4File))
 .on("finish", async () => {    
-await xdev.sendMessage(from, fs.readFileSync(mp4File), video, {quoted: dev, caption: "Nih"})        
+await xdev.sendMessage(from, fs.readFileSync(mp4File), video, {quoted: dev, caption: "GOURAV"})        
 fs.unlinkSync(`./${mp4File}`)
 })     
 } catch(err) {
@@ -1484,7 +1484,7 @@ mp4File = getRandom('.mp4')
 playStream = await play.stream(Link)
 playStream.stream.pipe(fs.createWriteStream(mp4File))
 .on('finish', async () => {
-await xdev.sendMessage(from, fs.readFileSync(mp4File), audio, {quoted: dev, caption: "Nih"})        
+await xdev.sendMessage(from, fs.readFileSync(mp4File), audio, {quoted: dev, caption: "GOURAV"})        
 fs.unlinkSync(mp4File)
 });
 */
@@ -1514,7 +1514,7 @@ ytdl(Link, {
   }, filter: 'audioonly'})
 .pipe(fs.createWriteStream(mp3File))
 .on("finish", async () => {  
-await xdev.sendMessage(from, fs.readFileSync(mp3File), audio, { 'mimetype': 'audio/mp4', quoted: dev, caption: "Nih"})        
+await xdev.sendMessage(from, fs.readFileSync(mp3File), audio, { 'mimetype': 'audio/mp4', quoted: dev, caption: "GOURAV"})        
 fs.unlinkSync(mp3File)
 })       
 } catch (err){
@@ -3768,8 +3768,8 @@ case 'allmenu':
 try{
 stod = `${sender}`
 menunya = help.menu(dateIslamic, thisHit ,listcmdblock, explain, kyun, process, timeWit, timeWita, timeWib, thePrefix, fs, isPremium, getLimit, limitCount, getBalance, senderNumber, blocked, ban, listerror, user, autosticker, forwarding, fake,autoread, autovn, typing,antibugtroli,Toxic, isAntihidetag, isKickarea, isAntiLink, AntiVirtex, isAntiviewonce, hitnya, pushname, ucapanWaktu, prefix, publik, week, weton, calender)
-let mok = [{"buttonId": `INFO BOTZ`,"buttonText": {"displayText": `ɪɴғᴏ ʙᴏᴛᴢ`},"type": "RESPONSE"},
-                    {"buttonId": `SEWA BOTZ`,"buttonText": {"displayText": `sᴇᴡᴀ ʙᴏᴛᴢ`},"type": "RESPONSE"}]
+let mok = [{"buttonId": `INFO BOTZ`,"buttonText": {"displayText": `GOURAV ʙᴏᴛᴢ`},"type": "RESPONSE"},
+                    {"buttonId": `SEWA BOTZ`,"buttonText": {"displayText": `GOURAV ʙᴏᴛᴢ`},"type": "RESPONSE"}]
                     nana =`https://www.logosvgpng.com/wp-content/uploads/2018/04/brainly-logo-vector.png`
   options = {contextInfo: { forward, externalAdReply:{title: `${ucapanWaktu} kak`,previewType:"PHOTO",thumbnail: thumb, sourceUrl:"https://youtu.be/_IlvsY7S7j8"}}}  
 options1 = {quoted: setQuoted, contextInfo: { forward, externalAdReply:{title:`${ucapanWaktu} ${pushname}`,body:`*click here to play music`,mediaType:"2",thumbnailUrl: nana,mediaUrl:`https://www.instagram.com/reel/CZCA-viBoxa/?utm_medium=copy_link`}}}
@@ -4992,21 +4992,21 @@ break
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(dev).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : dev
 						buff = await xdev.downloadMediaMessage(encmedia)
 						for (let _ of anus) {
-							await xdev.sendMessage(_.jid, buff, image, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: jumlahTroli, status: 200, thumbnail: thumb, surface: 200, message: `Broadcast`, orderTitle: `Broadcast`, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: forward, caption: `*BROADCAST BOT*\n\n${q}` })
+							await xdev.sendMessage(_.jid, buff, image, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: jumlahTroli, status: 200, thumbnail: thumb, surface: 200, message: `Broadcast`, orderTitle: `Broadcast`, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: forward, caption: `*GOURAV BOT*\n\n${q}` })
 						}
 						await setReply(`Sukses mengirim Broadcast ${q}`)
 						} else if (isMedia && !dev.message.videoMessage || isQuotedVideo) {
 						const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(dev).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : dev
 						buff = await xdev.downloadMediaMessage(encmedia)
 						for (let _ of anus) {
-							await xdev.sendMessage(_.jid, buff, video, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: jumlahTroli, status: 200, thumbnail: thumb, surface: 200, message: `Broadcast`, orderTitle: `Broadcast`, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: forward, caption: `*BROADCAST BOT*\n\n${q}` })
+							await xdev.sendMessage(_.jid, buff, video, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: jumlahTroli, status: 200, thumbnail: thumb, surface: 200, message: `Broadcast`, orderTitle: `Broadcast`, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: forward, caption: `*GOURAV BOT*\n\n${q}` })
 						}
 						await setReply(`Sukses mengirim Broadcast ${q}`)
 						} else if (isMedia && !dev.message.videoMessage || isQuotedVideo) {
 						const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(dev).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : dev
 						buff = await xdev.downloadMediaMessage(encmedia)
 						for (let _ of anus) {
-							await xdev.sendMessage(_.jid, buff, video, { mimetype: Mimetype.gif, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: jumlahTroli, status: 200, thumbnail: thumb, surface: 200, message: `Broadcast`, orderTitle: `Broadcast`, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: forward, caption: `*BROADCAST BOT*\n\n${q}` })
+							await xdev.sendMessage(_.jid, buff, video, { mimetype: Mimetype.gif, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: jumlahTroli, status: 200, thumbnail: thumb, surface: 200, message: `Broadcast`, orderTitle: `Broadcast`, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: forward, caption: `*GOURAV BOT*\n\n${q}` })
 						}
 						await setReply(`Sukses mengirim Broadcast ${q}`)
 						}else if (isMedia && !dev.message.videoMessage || isQuotedAudio) {
