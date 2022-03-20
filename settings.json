@@ -7,7 +7,7 @@
      "gender" : "Male",
      "copyright" : "Gourav",
      "namaDocument": "Gourav Botz",
-     "joinGcExtream": true,
+     "joinGcExtream": false,
 
      "publik": true,
      "forwarding": false,
