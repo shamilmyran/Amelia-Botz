@@ -561,12 +561,12 @@ Badmin: 'This feature can be used after the bot becomes admin!'
 
 
 //Ucapan Waktu  
-if(timeWib < "23:59:00"){ var ucapanWaktu = 'Selamat malam' }
-if(timeWib < "19:00:00"){ var ucapanWaktu = 'Selamat malam'}
-if(timeWib < "18:00:00"){ var ucapanWaktu = 'Selamat sore'}
-if(timeWib < "15:00:00"){ var ucapanWaktu = 'Selamat siang'}
-if(timeWib < "11:00:00"){ var ucapanWaktu = 'Selamat pagi'}
-if(timeWib < "06:00:00"){ var ucapanWaktu = 'Selamat pagi'  }      
+if(timeWib < "23:59:00"){ var ucapanWaktu = 'Good Night' }
+if(timeWib < "19:00:00"){ var ucapanWaktu = 'Good Night'}
+if(timeWib < "18:00:00"){ var ucapanWaktu = 'Good Afternoon'}
+if(timeWib < "15:00:00"){ var ucapanWaktu = 'Good Afternoon'}
+if(timeWib < "11:00:00"){ var ucapanWaktu = 'Good Morning'}
+if(timeWib < "06:00:00"){ var ucapanWaktu = 'Good Morning'  }      
         
 //FAKE REPLY  
 const ftoko = { key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},message: {"productMessage": {"product": {"productImage":{"mimetype": "image/jpeg","jpegThumbnail": fs.readFileSync(`./stik/fake.jpeg`)},"title": `${pushname}`,"description": `${ucapanWaktu} kak`,"currencyCode": "IDR", "priceAmount1000": `${getBalance(senderNumber, user)}`, "retailerId": `Rp10`,"productImageCount": 1},"businessOwnerJid": `0@s.whatsapp.net`}}}
