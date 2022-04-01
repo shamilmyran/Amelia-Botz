@@ -20,7 +20,7 @@ prefix = settings.setPrefix.prefix
 joinExtream = settings.joinGcExtream
 ext = settings.SetFunction.ext
 const baterai = {
-battery: "" || "Belom Terdeteksi",
+battery: "" || "charging",
 isCharge: "Sedang di cas" || "Tidak di cas"
 }
 
