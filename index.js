@@ -333,7 +333,7 @@ module.exports = xdev = async (xdev, dev, baterai) => {
 		const from = dev.key.remoteJid
 		const { text, extendedText, contact, location, liveLocation, image, video, sticker, document, audio, product } = MessageType
 		const type = Object.keys(dev.message)[0]        
-		const time = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
+		const time = moment.tz('Asia/Kolkata').format('DD/MM HH:mm:ss')
 		//const cmd = (type === 'conversation' && dev.message.conversation) ? dev.message.conversation : (type == 'imageMessage') && dev.message.imageMessage.caption ? dev.message.imageMessage.caption : (type == 'videoMessage') && dev.message.videoMessage.caption ? dev.message.videoMessage.caption : (type == 'extendedTextMessage') && dev.message.extendedTextMessage.text ? dev.message.extendedTextMessage.text : (type == 'stickerMessage') && (getCmd(dev.message.stickerMessage.fileSha256.toString('base64')) !== null && getCmd(dev.message.stickerMessage.fileSha256.toString('base64')) !== undefined) ? getCmd(dev.message.stickerMessage.fileSha256.toString('base64')) : "".slice(1).trim().split(/ +/).shift().toLowerCase()
 		const cmd =    (type === 'conversation' && dev.message.conversation) ? dev.message.conversation : (type == 'imageMessage') && dev.message.imageMessage.caption ? dev.message.imageMessage.caption : (type == 'videoMessage') && dev.message.videoMessage.caption ? dev.message.videoMessage.caption : (type == 'extendedTextMessage') && dev.message.extendedTextMessage.text ? dev.message.extendedTextMessage.text : (type == 'stickerMessage') && (getCmd(dev.message.stickerMessage.fileSha256.toString('hex'))         !== null && getCmd(dev.message.stickerMessage.fileSha256.toString('base64')) !== undefined) ? getCmd(dev.message.stickerMessage.fileSha256.toString('base64')) : "".slice(1).trim().split(/ +/).shift().toLowerCase()
         var pes = (type === 'conversation' && dev.message.conversation) ? dev.message.conversation : (type == 'imageMessage') && dev.message.imageMessage.caption ? dev.message.imageMessage.caption : (type == 'videoMessage') && dev.message.videoMessage.caption ? dev.message.videoMessage.caption : (type == 'extendedTextMessage') && dev.message.extendedTextMessage.text ? dev.message.extendedTextMessage.text : ''
@@ -365,9 +365,9 @@ module.exports = xdev = async (xdev, dev, baterai) => {
 		const isCmd = body.startsWith(prefix)
 		const q = args.join(' ')
         const c = args.join(" ")
-		const timeWib = moment().tz('Asia/Jakarta').format('HH:mm:ss')
-		const timeWit= moment().tz('Asia/Makassar').format('HH:mm:ss')
-        const timeWita = moment().tz('Asia/Jayapura').format('HH:mm:ss')
+		const timeWib = moment().tz('Asia/Kolkata').format('HH:mm:ss')
+		const timeWit= moment().tz('Asia/Kolkata').format('HH:mm:ss')
+        const timeWita = moment().tz('Asia/Kolkata').format('HH:mm:ss')
 		const botNumber = xdev.user.jid
 		const botNumberss = xdev.user.jid + '@c.us'
 		const isGroup = from.endsWith('@g.us')
@@ -10106,7 +10106,7 @@ break
             encmedia = JSON.parse(JSON.stringify(dev).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 		    media = await xdev.downloadAndSaveMediaMessage(encmedia)
             ahuh = args.join(' ').split('|')
-            satu = ahuh[0] !== '' ? ahuh[0] : `EXTREAM`
+            satu = ahuh[0] !== '' ? ahuh[0] : `GOURAV`
             dua = typeof ahuh[1] !== 'undefined' ? ahuh[1] : ``
             require('./lib/fetcher.js').createExif(satu, dua)
 			require('./lib/fetcher.js').modStick(media, xdev, dev, from)
